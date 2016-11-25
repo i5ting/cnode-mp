@@ -1,0 +1,26 @@
+{
+  "name": "cnmp",
+  "version": "1.0.0",
+  "description": "cnode新媒体运营:cnode官方公众号：Node全栈",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cnmp": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/cnode-mp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/cnode-mp/issues"
+  },
+  "homepage": "https://github.com/i5ting/cnode-mp#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
