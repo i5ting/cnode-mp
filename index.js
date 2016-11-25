@@ -6,18 +6,19 @@
 
 var fs = require('fs')
 var mkdirp = require('mkdirp')
-
+var config = require('./config.json')
 var dir = require('./src/dir')()
     
 mkdirp(dir, function (err) {
-    if (err) console.error(err)
-    else console.log('pow!')
+  if (err) console.error(err)
+  else console.log('pow!')
+    
+  for (var key in config) {
+    var title = config[key]
+
+    var _file_name = dir + '/' + key + '.md'
+    fs.writeFileSync(_file_name, '# ' + title)
+  }
 })
 
-var fileNames = ['topic', 'reply', 'opensource', 'news', 'other']
 
-for (var i = 0; i < fileNames.length; i++) {
-  var name = fileNames[i]
-  var _file_name = dir + '/' + name + '.md'
-  fs.writeFileSync(_file_name, name)
-}
