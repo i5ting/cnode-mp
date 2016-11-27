@@ -21,3 +21,9 @@
 其实还有一个非常低调的人需要介绍，主持人是蚂蚁金服的[承玉](https://github.com/yiminghe)，温文尔雅的谦谦君子，非常nice的大神，推荐一下 http://ant.design 吧
 
 ppt需要等大会发布之后贴出来
+
+## 招聘
+
+### 湾区startup招前端工程师
+
+湾区startup招前端工程师加盟，需要熟悉ReactJs, Redux, gulp, less等前端技术。初期可以业余时间按外包方式加盟，按小时或任务量提供薪酬。如果以后有兴趣全职加入公司，可以提供RSU。要求最好住在湾区，国内远程工作也可接受。有意者请发简历到ztyaner11@gmail.com
