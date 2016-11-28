@@ -30,3 +30,21 @@ Github : https://github.com/jiakeqi/douban
 - public放的都是图，还要imgs干啥？
 - 爬虫那部分看起来乱
 - 有很多好东西的，比如lru、cross_env等
+
+## 用 Vue2.0 搞得 CNode
+
+https://cnodejs.org/topic/583c16c727d001d606ac1a24
+
+https://github.com/jiananle/vue-cnode
+
+实现了所有API提供的功能， 
+为了流程完善，还加了登录功能，由于没有接口，就直接粗暴的用accesstoken登录了 Orz
+项目还不是很完善，后续会不断改进，感兴趣的可以关注下  0.0
+
+部分截图
+
+![屏幕快照 2016-11-28 下午7.45.09.png](//dn-cnode.qbox.me/Ft7iruLKKuUwfLX-RHDIVuTpIvGj)
+![屏幕快照 2016-11-28 下午7.45.48.png](//dn-cnode.qbox.me/FiVAXQXjhmCi2BSqV8lNtmq-xvks)
+![屏幕快照 2016-11-28 下午7.46.16.png](//dn-cnode.qbox.me/Fs-D1BmK5bLxmhyJG5T9ib9HqPPb)
+![屏幕快照 2016-11-28 下午7.47.05.png](//dn-cnode.qbox.me/FtBUUIrTL3kPau4Vp5X121W4CFvy)
+
